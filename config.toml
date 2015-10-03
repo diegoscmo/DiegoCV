@@ -104,43 +104,43 @@ theme = "hugo-agency"
 			img = "1.jpg"
 			date = "July 2009"
 			title = "Mechanical Engineering 101"
-			description = "Started a Mechanical Engineering course at UDESC (Universidade do Estado de Santa Catarina). I will save you of the story of the kid that liked to take thing apart, all engineers tell this one."
+			description = "Started a Mechanical Engineering course at UDESC (Universidade do Estado de Santa Catarina). I will save you the story of the kid that liked to take things apart.. It is true in my case, but all other engineers already tell this one."
 
 		[[params.about.events]]
 			img = "2.jpg"
 			date = "March 2010"
 			title = "Velociraptor Baja-SAE"
-			description = "I began participating in the Baja-SAE Velociraptor team. The focus of the project is to design and build an off-road vehicle for competitions between universities with other students. Good place to learn a lot about engineering and team-work."
+			description = "I began participating in the Baja-SAE Velociraptor team. The focus of the project is to design and build an off-road vehicle for competitions between universities. Really good place to learn a lot about automotive engineering, project managing and team-work."
 
 		[[params.about.events]]
 			img = "3.jpg"
 			date = "December 2010"
 			title = "Summer Work/Travel Exchange"
-			description = "Since I was a kid I always enjoyed the old video-games, my older brother gave me a dictionary to understand what I had to do in the games and with that I learned how to write and read in English. Going abroad was a fast way to finally learn how to speak. I spent three months working in a restaurant at Nascar Sports Grille in Orlando/Florida"
+			description = "Since I was a kid I've always enjoyed the old video-games, my older brother gave me an English dictionary so I could understand what I had to do in the games, with that I learned how to write and read in English around 10. Going abroad was a fast way to finally learn how to speak. I've spent three months working in a restaurant at Nascar Sports Grille in Orlando/Florida."
 
 		[[params.about.events]]
 			img = "4.jpg"
 			date = "September 2011"
 			title = "Own Baja Project"
-			description = "After learning a lot in the Baja team, I've decided to design and build my own. Together with my older brother (also Mec. Engineer) we did just that. We designed it from scratch and build in our garage, we took almost a year and a half to finish (only weekends). Several years have passed and our mom is still mad at us. (*Hope to go into more depth of the process here later on*)"
+			description = "After learning a lot in the Baja team, I've decided to design and build my own. Together with my older brother (also Mec. Engineer) we did just that. We've designed it from scratch and build in our garage, my brother used the project as his Thesis later on, we took almost a year and a half to finish (only weekends). Several years have passed and our mom is still mad at us. (*Hope to go into more depth of the designing process here later on*)"
 
 		[[params.about.events]]
 			img = "5.jpg"
 			date = "December 2013"
 			title = "Thesis, Particle Swarm Truss Optimization"
-			description = "Time to work on my thesis! I fell in love with optimization the moment that the professor started explaning it to me, I had a lot of fun working on this and also learned a lot about optimization and Finite Elements Method."
+			description = "Time to work on my thesis! I fell in love with optimization the moment that my professor started explaning it to me. Since I had a lot of trouble designing the Truss-like chassis of our Baja Project, Truss optimization was a natural choise. I had a lot of fun working on this and also learned a lot about Optimization and Finite Elements Method."
 
 [[params.about.events]]
 			img = "6.jpg"
 			date = "February 2014"
 			title = "Internship, WEG - Wind Power"
-			description = "I was lucky enough to get a position in the brand new Wind Power department at WEG. Wind Turbines are an awesome product to learn and work with. I got a position in Supply Chain and did a little bit of everything in there as an intern."
+			description = "I was lucky enough to get a position in the brand new Wind Power department at WEG. Wind Turbines are an awesome product to learn and work with. I've got a position in Supply Chain and did a little bit of everything in there as an intern."
 
 [[params.about.events]]
 			img = "7.jpg"
 			date = "July 2014"
 			title = "Graduation and Job!"
-			description = "Finally I graduated! In the same month I got an effective position at WEG, still working with Wind Turbines but now more focused on Developing Suppliers for components of a new Wind Turbine (the AGW3.3)."
+			description = "Finally I've graduated! In the same month I got an effective position at WEG, still working with Wind Turbines but now more focused on Developing Suppliers for components of a new Wind Turbine (the AGW3.3)."
 
 			[[params.about.events]]
 			img = "8.jpg"
@@ -158,7 +158,7 @@ theme = "hugo-agency"
 	[params.team]
 		title = "About me"
 		subtitle = "Little bit more, if you are not tired already."
-		description = "I am still working on this page, if you would like to contact me to know more or to discuss a project that you think I might be interested in contributing wth, please refer to my *Curriculum Vitae*: *[CV - Portuguese version] (http://http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_PT.pdf); *[CV - English version] (http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_ENG.pdf). You can find my e-mail there or use the social media links in this page. Thanks for checking me out, have a nice one! ;)"
+		description = "I am still working on this page, if you would like to contact me to know more or to discuss a project that you think I might be interested in contributing wth, please refer to my *Curriculum Vitae*: *[CV - Portuguese version] (http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_PT.pdf); *[CV - English version] (http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_ENG.pdf). You can find my e-mail there or use the social media links in this page. Thanks for checking me out, have a nice one! ;)"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
