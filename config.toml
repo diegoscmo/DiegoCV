@@ -1,8 +1,10 @@
-# Site settings
-baseurl = "http://diegoscmo.github.io/public/"
+	# Site settings
+baseurl = "http://127.0.0.1:1313/"
 languageCode = "en-us"
-title = "Hugo Agency Theme"
+title = "Diego S. Montero"
 theme = "hugo-agency"
+
+# # http://diegoscmo.github.io/public/
 
 
 [params]
@@ -16,8 +18,8 @@ theme = "hugo-agency"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Diego Schmitt Montero"
+	description = "Engenheiro Mecânico, Mechanical Engineer"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -35,11 +37,11 @@ theme = "hugo-agency"
 
 	# Navigation
 	[params.navigation]
-		brand = "The Agency"
-		services = "Services"
-		portfolio = "Portfolio"
-		about = "About"
-		team = "Team"
+		brand = "Diego S. Montero"
+#D		services = "Services"
+#D		portfolio = "Portfolio"
+		about = "My trajectory"
+		team = "About me"
 		contact = "Contact"
 
 
@@ -47,9 +49,9 @@ theme = "hugo-agency"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
+		title = "Welcome To My Page!"
 		subtitle = "It's nice to meet you"
-		buttonText = "Tell me more"
+		buttonText = "Find out a little more about me!"
 
 
 	# Services section
@@ -91,18 +93,18 @@ theme = "hugo-agency"
 
     # About section
 	[params.about]
-		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Be part<br>of our<br>story!"
+		title = "My tractory"
+		subtitle = "A brief timeline of what I have been doing so far."
+		endpoint = "Invite me to do something <br>FUN!<br>!"
 
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			date = "2009"
+			title = "Engineering 101"
+			description = "July-2009: Started a Mechanical Engineering course at UDESC (Universidade do Estado de Santa Catarina)"
 
 		[[params.about.events]]
 			img = "2.jpg"
@@ -207,7 +209,7 @@ theme = "hugo-agency"
 
 	# Footer section
 	[params.footer]
-		copyright = "Published under the Apache License 2.0."
+		copyright = "Diego Schmitt Montero - 2015"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
