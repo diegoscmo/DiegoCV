@@ -1,5 +1,5 @@
 	# Site settings
-baseurl = "http://127.0.0.1:1313/"
+baseurl = "http://diegoscmo.github.io/public/"
 languageCode = "en-us"
 title = "Diego S. Montero"
 theme = "hugo-agency"
@@ -50,7 +50,7 @@ theme = "hugo-agency"
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Welcome To My Page!"
-		subtitle = "It's nice to meet you"
+		subtitle = "It's nice to meet you :)"
 		buttonText = "Find out a little more about me!"
 
 
@@ -93,74 +93,87 @@ theme = "hugo-agency"
 
     # About section
 	[params.about]
-		title = "My tractory"
-		subtitle = "A brief timeline of what I have been doing so far."
-		endpoint = "Invite me to do something <br>FUN!<br>!"
+		title = "My Trajectory"
+		subtitle = "A brief timeline of what I have been doing so far. *(I hope to get into more details of relevant projects as I further develop this page)*"
+		endpoint = "What should be <br>next?<br>"
 
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "2009"
-			title = "Engineering 101"
-			description = "July-2009: Started a Mechanical Engineering course at UDESC (Universidade do Estado de Santa Catarina)"
+			date = "July 2009"
+			title = "Mechanical Engineering 101"
+			description = "Started a Mechanical Engineering course at UDESC (Universidade do Estado de Santa Catarina)"
 
 		[[params.about.events]]
 			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
+			date = "March 2010"
+			title = "Velociraptor Baja-SAE"
 			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 		[[params.about.events]]
 			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
+			date = "December 2010"
+			title = "Summer Work/Travel Exchange"
 			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 		[[params.about.events]]
 			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
+			date = "September 2011"
+			title = "Own Baja Project"
+			description = "After a while working ..."
+
+		[[params.about.events]]
+			img = "5.jpg"
+			date = "December 2013"
+			title = "Monography, Truss Optimization"
 			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+[[params.about.events]]
+			img = "6.jpg"
+			date = "February 2014"
+			title = "Internship, WEG - Wind Power"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+[[params.about.events]]
+			img = "7.jpg"
+			date = "July 2014"
+			title = "Graduation and Job!"
+			description = "effective job at WEG Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+			[[params.about.events]]
+			img = "8.jpg"
+			date = "August 2015"
+			title = "Began my Master's Degree"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+			[[params.about.events]]
+			img = "9.jpg"
+			date = "September 2015"
+			title = "Nemo Project"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
+
 
 
 	# Team section
 	[params.team]
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "About me"
+		subtitle = "Little bit more, if you are not tired already."
+		description = "I am still working on this page, if you would like to contact me or know more, please refer to my *Curriculum Vitae*:	 		* [CV - Portuguese version] (http://http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_PT.pdf)	* CV - English version.... Thanks for checking me out, have a nice one! ;)"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
 			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+			name = "Diego Schmitt Montero"
+			position = "Mechanical Engineer"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+			#D	["fa-twitter", "#"],
+				["fa-facebook", "https://www.facebook.com/diegoscmo"],
+				["fa-linkedin", "http://br.linkedin.com/in/diegoscmo"]
 			]
 
 	# Client section
@@ -185,7 +198,7 @@ theme = "hugo-agency"
 
 	# Contact section
 	[params.contact]
-		title = "Contact us"
+		title = "Contact me"
 		subtitle  = "Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Send message"
 
@@ -211,17 +224,17 @@ theme = "hugo-agency"
 	[params.footer]
 		copyright = "Diego Schmitt Montero - 2015"
 
-		[[params.footer.social]]
-			icon = "fa-twitter"
-			link = "#"
+	#D	[[params.footer.social]]
+	#D		icon = "fa-twitter"
+	#D		link = "#"
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
-			link = "#"
+			link = "https://www.facebook.com/diegoscmo"
 
 		[[params.footer.social]]
 			icon = "fa-linkedin"
-			link = "#"
+			link = "http://br.linkedin.com/in/diegoscmo"
 
 		[[params.footer.quicklinks]]
 			text = "Privacy Policy"
