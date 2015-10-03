@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://127.0.0.1:1313"
+baseurl = "http://diegoscmo.github.io/public"
 languageCode = "en-us"
 title = "Hugo Agency Theme"
 theme = "hugo-agency"
