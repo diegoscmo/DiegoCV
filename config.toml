@@ -37,12 +37,12 @@ theme = "hugo-agency"
 
 	# Navigation
 	[params.navigation]
-		brand = "Diego S. Montero"
+		brand = "Diego S. Montero - Mechanical Engineer"
 #D		services = "Services"
 #D		portfolio = "Portfolio"
 		about = "My trajectory"
 		team = "About me"
-		contact = "Contact"
+#D		contact = "Contact"
 
 
 	# Hero section
@@ -158,7 +158,17 @@ theme = "hugo-agency"
 	[params.team]
 		title = "About me"
 		subtitle = "Little bit more, if you are not tired already."
-		description = "I am still working on this page, if you would like to contact me to know more or to discuss a project that you think I might be interested in contributing wth, please refer to my *Curriculum Vitae*: *[CV - Portuguese version] (http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_PT.pdf); *[CV - English version] (http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_ENG.pdf). You can find my e-mail there or use the social media links in this page. Thanks for checking me out, have a nice one! ;)"
+
+		description ="Hey, I hope that by know you already know my name and that I am a Brazilian Mechanical Engineer, currently working with Wind Turbines at WEG. My trajectory above says pretty much all you need to know about me professionaly. :"
+
+description1 = "If you would like to contact me for more information, or if there is a project that you think I might me interested in, please click the social media links on this page or refer to the contact information in my *Curriculum Vitae*"
+
+description2 = "[CV - Portuguese version] (http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_PT.pdf);"
+description3 = "[CV - English version] (http://diegoscmo.github.io/Diego_Schmitt_Montero-CV_ENG.pdf);"
+description4 = "I am still working on this page, I hope to be updating with further details on my projects. Thanks for checking me out, have a nice one! ;)"
+
+
+
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
