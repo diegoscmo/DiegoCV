@@ -5,6 +5,7 @@ title = "Diego S. Montero"
 theme = "hugo-agency"
 
 # # http://diegoscmo.github.io/public/
+# # 127.0.0.1:1313
 
 
 [params]
@@ -19,7 +20,7 @@ theme = "hugo-agency"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Diego Schmitt Montero"
-	description = "Engenheiro Mecânico, Mechanical Engineer"
+	description = "Mechanical Engineer, Engineer, WEG, Wind Turbines, BAJA"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -50,7 +51,7 @@ theme = "hugo-agency"
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Welcome To My Page!"
-		subtitle = "It's nice to meet you :)"
+		subtitle = "It is nice to meet you :)"
 		buttonText = "Find out a little more about me!"
 
 
@@ -62,17 +63,17 @@ theme = "hugo-agency"
 		[[params.services.list]]
 			icon = "fa-shopping-cart"
 			title = "E-Commerce"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			description = "Lorem "
 
 		[[params.services.list]]
 			icon = "fa-laptop"
 			title = "Responsive Design"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			description = "Lorem"
 
 		[[params.services.list]]
 			icon = "fa-lock"
 			title = "Web"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			description = "Lorem "
 
 
 	# Portfolio section
@@ -94,7 +95,7 @@ theme = "hugo-agency"
     # About section
 	[params.about]
 		title = "My Trajectory"
-		subtitle = "A brief timeline of what I have been doing so far. *(I hope to get into more details of relevant projects as I further develop this page)*"
+		subtitle = "A brief timeline of what I have been doing so far *(I hope to get into more details of relevant projects as I further develop this page).*"
 		endpoint = "What should be <br>next?<br>"
 
 		# The events will be listed from the top to the bottom.
@@ -104,60 +105,60 @@ theme = "hugo-agency"
 			img = "1.jpg"
 			date = "July 2009"
 			title = "Mechanical Engineering 101"
-			description = "Started a Mechanical Engineering course at UDESC (Universidade do Estado de Santa Catarina). I will save you the story of the kid that liked to take things apart.. It is true in my case, but all other engineers already tell this one."
+			description = "Started a Mechanical Engineering course at UDESC (Universidade do Estado de Santa Catarina). Understanding how things works and the habit of taking things apart as a kid were my two main drivers towards engineering."
 
 		[[params.about.events]]
 			img = "2.jpg"
 			date = "March 2010"
 			title = "Velociraptor Baja-SAE"
-			description = "I began participating in the Baja-SAE Velociraptor team. The focus of the project is to design and build an off-road vehicle for competitions between universities. Really good place to learn a lot about automotive engineering, project managing and team-work."
+			description = "I began participating in the Baja-SAE Velociraptor team. The focus of the project is to design and build an off-road vehicle for competitions between universities. Good place to learn a lot about automotive engineering, project managing and teamwork."
 
 		[[params.about.events]]
 			img = "3.jpg"
 			date = "December 2010"
 			title = "Summer Work/Travel Exchange"
-			description = "Since I was a kid I've always enjoyed the old video-games, my older brother gave me an English dictionary so I could understand what I had to do in the games, with that I learned how to write and read in English around 10. Going abroad was a fast way to finally learn how to speak. I've spent three months working in a restaurant at Nascar Sports Grille in Orlando/Florida."
+			description = "Since I was a kid I have always enjoyed the video games, since at that time none of the current games were in Portuguese, my older brother gave me an English dictionary. With that, I learned how to write and read in English around 10. Going abroad was a fast way to finally practice and learn how to speak. I have spent three months working in a restaurant at Nascar Sports Grille in Orlando/Florida."
 
 		[[params.about.events]]
 			img = "4.jpg"
 			date = "September 2011"
 			title = "Own Baja Project"
-			description = "After learning a lot in the Baja team, I've decided to design and build my own. Together with my older brother (also Mec. Engineer) we did just that. We've designed it from scratch and build in our garage, my brother used the project as his Thesis later on, we took almost a year and a half to finish (only weekends). Several years have passed and our mom is still mad at us. (*Hope to go into more depth of the designing process here later on*)"
+			description = "After learning a lot in the Baja team, I have decided to design and build my own. Together with my older brother (also a Mechanical Engineer), we did just that. We have designed an off-road vehicle from scratch and build in our garage, my brother used the project as his Graduation Thesis later on, we took almost a year and a half of weekends to get it running *(Hope to go into more depth of the designing process here later on)*."
 
 		[[params.about.events]]
 			img = "5.jpg"
 			date = "December 2013"
 			title = "Thesis, Particle Swarm Truss Optimization"
-			description = "Time to work on my thesis! I fell in love with optimization the moment that my professor started explaning it to me. Since I had a lot of trouble designing the Truss-like chassis of our Baja Project, Truss optimization was a natural choise. I had a lot of fun working on this and also learned a lot about Optimization and Finite Elements Method."
+			description = "Time to work on my thesis! I fell in love with optimization the moment that my professor started explaining it to me. Since I had a lot of trouble designing the Truss-like chassis of our Baja Project, Truss optimization was a natural choice for a thesis. I had a lot of fun working on this and learned a lot about Optimization and Finite Elements Method, which are my two main areas of interest together with Structural calculations."
 
 [[params.about.events]]
 			img = "6.jpg"
 			date = "February 2014"
 			title = "Internship, WEG - Wind Power"
-			description = "I was lucky enough to get a position in the brand new Wind Power department at WEG. Wind Turbines are an awesome product to learn and work with. I've got a position in Supply Chain and did a little bit of everything in there as an intern."
+			description = "I was lucky enough to get a position in the brand new Wind Power department at WEG. Wind Turbines are an awesome product to learn and work with. I landed a position in Supply Chain and did a little bit of everything in there as an intern."
 
 [[params.about.events]]
 			img = "7.jpg"
 			date = "July 2014"
 			title = "Graduation and Job!"
-			description = "Finally I've graduated! In the same month I got an effective position at WEG, still working with Wind Turbines but now more focused on Developing Suppliers for components of a new Wind Turbine (the AGW3.3)."
+			description = "Finally, I have graduated! In the same month, I got an effective position at WEG, still working with Wind Turbines but now more focused on Developing Suppliers for components of a new Wind Turbine (the AGW3.3). I am still exponentially learning about all sorts of critical components of a Gearless Wind Turbine, to name a few: Pitch System, Slipring, Slewing Bearings, Cooling System, Pitch and Yaw Gearboxes, Structural Castings, and the list goes on..."
 
 			[[params.about.events]]
 			img = "8.jpg"
 			date = "August 2015"
 			title = "Began my Master's Degree"
-			description = "Began a Masters course in *Project, Analysis and Optimization of Mechanical Systems*. Never thought that I would miss college. I am hoping to use this knowledge in a more technical position later on."
+			description = "Began a Masters course in *Project, Analysis and Optimization of Mechanical Systems*. Since I am in the first semester with just a couple of classes each week I still do not know what I will be working on for a thesis. I am hoping to use this knowledge in a more technical position later on."
 
 			[[params.about.events]]
 			img = "9.jpg"
 			date = "September 2015"
 			title = "Nemo Project"
-			description = "Now I am together with two other crazy engineers to design and build a Hydrofoil Bycicle. We hope to get that done in a year, I will try to record part of the process in here."
+			description = "Now I am together with two other engineers to design and build a Hydrofoil Bicycle. We are doing this mostly for fun right now and we hope to get that done in a year, I will try to record part of the process in here."
 
 	# Team section
 	[params.team]
 		title = "About me"
-		subtitle = "Little bit more, if you are not tired already."
+		subtitle = ""
 
 		description ="Hey, I hope that by know you already know my name and that I am a Brazilian Mechanical Engineer, currently working with Wind Turbines at WEG. My trajectory above says pretty much all you need to know about me professionaly. :"
 
